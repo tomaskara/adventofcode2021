@@ -7,7 +7,6 @@ scores = {')': 3,
           ']': 57,
           '}': 1197,
           '>': 25137}
-
 score = 0
 
 for line in data:

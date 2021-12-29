@@ -29,7 +29,7 @@ for line in data:
         complete_list.reverse()
         score = 0
         for i in complete_list:
-            score = score*5+scores[i]
+            score = score * 5 + scores[i]
         scores_list.append(score)
 
 print(statistics.median(scores_list))
